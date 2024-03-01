@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les formomilaires</title>
+    <!-- <link rel="stylsheet" href="style.css"> -->
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <h1>les formulaires</h1>
+    <form method="post" action="traitement.php">
+ <fieldset id="section1">
+        <legend>Informations personnelles:</legend>
+        <label for="prenom">Entrez votre prénom</label>
+         <input type="text" name="prenom" id="prenom"><br>
+         <label for="nom">Entrez votre nom:</label>
+         <input type="text" id="nom" name="nom"><br>
+         <label for="pseudo">Choisissez un pseudonyme</label>
+         <input type="text" id="pseudo" name="pseudo"><br>
+ </fieldset>
+
+ <fieldset id="section2">
+        <legend>Informations supplémentaires:</legend>
+         Quels sont vos loisirs?<br>
+         <input type="checkbox" name="hobbies" id="inf" value="informatique">
+         <label for="inf">Informatique</label>
+         <input type="checkbox" name="hobbies" id="spot" value="sport">
+         <label for="sport">Sport</label>
+         <input type="checkbox" name="hobbies" id="voyages" value="voyages">
+         <label for="voyaye">Voyages</label>
+         <input type="checkbox" name="hobbies" id="musique" value="musique">
+         <label for="musique">Musique</label>
+ </fieldset>
+
+          <input type="submit" value="Envoyer">
+</body>
+</html>

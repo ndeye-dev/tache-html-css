@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les formulaires</title>
+    <link rel="stylsheet" href="style.css">
+</head>
+<body>
+    <h1>les formulaires</h1>
+    <form method="post" action="traitement.php">
+        <label for="prenom">Entrez votre prénom</label>
+          <input type="text" id="prenom" name="prenom"><br>
+
+          <label for="pass">Entrez un mot de passe</label>
+          <input type="password" id="pass" name="pass"><br>
+
+          <label for="naissance">Votre date de naissance</label>
+          <input type="date" id="naissance" name="naissance"><br>
+
+          <label for="email">Entrez votre email</label>
+          <input type="email" id="email" name="email"><br>
+
+          <label for="site">Entrez votre site</label>
+          <input type="url" id="site" name="site"><br>
+
+          <label for="tel">Entrez un numéro</label>
+          <input type="number" id="tel" name="tel"><br>
+          
+                  Homme ou femme?<br>
+          <input type="radio" id="homme" name="sexe" value="homme">
+          <label for="homme">un homme</label><br>
+          <input type="radio" id="femme" name="sexe" value="femme">
+          <label for="femme">une femme</label><br>
+
+                  Majeur ou mineur?<br>
+           <input type="radio" id="mineur" name="age" value="mineur">
+           <label for="mineur">Mineur</label><br>
+           <input type="radio" id="majeur" name="age" value="majeur">
+           <label for="majeur">Majeur</label><br>
+
+                   Quel(s) sport pratiquez vous?<br>
+           <input type="checkbox" id="natation" name="sport" value="natation">
+           <label for="natation">Natation</label><br>
+           <input type="checkbox" id="course" name="sport" value="course">
+           <label for="course">Course à pied</label><br>
+           <input type="checkbox" id="velo" name="sport" value="velo">
+           <label for="velo">Velo</label><br><br>
+
+                  Ou habitez vouz?<br>
+           <select name="pays">
+                <option value="france">France</option>
+                <option value="belgique">Belgique</option>
+                <option value="senegal">Senagal</option>
+                <option value="portugal">Portugal</option>
+           </select>
+           <br><br>
+
+          <label for="prez">Une petite présentation ?</label>
+          <textarea id="prez" name="présentation"></textarea><br>
+
+          <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>

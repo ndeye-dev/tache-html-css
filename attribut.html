@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les formomilaires</title>
+    <link rel="stylsheet" href="attribut.css">
+</head>
+<body>
+    <h1>les formulaires</h1>
+    <form method="post" action="traitement.php">
+        <label for="prenom">Entrez votre prénom</label>
+         <input type="text" name="prenom" id="prenom" autocomplete="on" placeholder="Ex: mary" ><br>
+
+         <label for="nom">Entrez votre nom</label>
+         <input type="text" id="nom" name="nom" autofocus="autofocus"><br>
+
+         <label for="number">Choisissez chiffre entre 1 et 10</label>
+         <input type="number" id="number" name="number" max="10">
+
+         
+          <input type="submit" value="Envoyer">
+</body>
+</html>
